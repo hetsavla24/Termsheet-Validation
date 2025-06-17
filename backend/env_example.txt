@@ -1,0 +1,30 @@
+# MongoDB Configuration
+MONGODB_URL=mongodb://localhost:27017
+# For MongoDB Atlas (cloud), use format like:
+# MONGODB_URL=mongodb+srv://username:password@cluster.mongodb.net/?retryWrites=true&w=majority
+
+# Database Name
+DATABASE_NAME=termsheet_validation
+
+# JWT Secret Key (change this in production)
+SECRET_KEY=your-secret-key-here
+
+# File Upload Configuration
+MAX_FILE_SIZE_MB=16
+UPLOAD_DIRECTORY=./uploads
+
+# Application Environment
+ENVIRONMENT=development
+DEBUG=True
+
+# Frontend URL (for CORS)
+FRONTEND_URL=http://localhost:3000
+
+# Email Configuration (optional)
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SMTP_USERNAME=your-email@gmail.com
+SMTP_PASSWORD=your-app-password
+
+# Redis Configuration (for background tasks)
+REDIS_URL=redis://localhost:6379 

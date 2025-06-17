@@ -1,0 +1,42 @@
+{
+  "mifid_ii_requirements": {
+    "professional_client": [
+      "suitability_assessment",
+      "best_execution",
+      "product_governance"
+    ],
+    "retail_client": [
+      "appropriateness_test",
+      "execution_policy",
+      "costs_disclosure"
+    ],
+    "eligible_counterparty": [
+      "limited_protections",
+      "execution_venue"
+    ]
+  },
+  "fca_regulations": {
+    "conduct_rules": [
+      "fair_treatment",
+      "conflict_management",
+      "clear_communication"
+    ],
+    "prudential_rules": [
+      "capital_requirements",
+      "liquidity_ratios",
+      "risk_management"
+    ]
+  },
+  "sec_requirements": {
+    "registration": [
+      "investment_adviser",
+      "broker_dealer",
+      "clearing_agency"
+    ],
+    "reporting": [
+      "form_adv",
+      "form_bd",
+      "suspicious_activity"
+    ]
+  }
+}

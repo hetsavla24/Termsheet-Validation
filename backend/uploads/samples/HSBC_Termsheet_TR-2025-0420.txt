@@ -1,0 +1,36 @@
+
+TERM SHEET - DERIVATIVE TRANSACTION
+
+Trade ID: TR-2025-0420
+Date: January 15, 2025
+
+COUNTERPARTY INFORMATION:
+Primary Counterparty: HSBC Bank plc
+Legal Entity: HSBC Holdings plc London Branch
+
+TRADE DETAILS:
+Notional Amount: $30,000,000 USD  [DISCREPANCY: Should be $25M]
+Settlement Date: March 15, 2025
+Interest Rate: 4.75% per annum  [DISCREPANCY: Should be 4.25%]
+Currency: USD
+Payment Terms: Quarterly payments in arrears
+Reference Rate: SOFR + 1.50%
+
+PRODUCT SPECIFICATIONS:
+Trade Type: Interest Rate Swap
+Maturity Date: March 15, 2027
+Day Count Convention: ACT/360
+Business Day Convention: Modified Following
+
+REGULATORY INFORMATION:
+MiFID II Classification: Professional Client
+FCA Regulated: Yes
+SEC Registration: N/A (Non-US Entity)
+
+CONFIRMATION:
+This term sheet is subject to final documentation and credit approval.
+All terms are indicative and subject to change.
+
+Document Version: 1.2
+Last Updated: January 15, 2025
+        

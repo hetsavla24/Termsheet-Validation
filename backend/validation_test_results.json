@@ -1,0 +1,118 @@
+{
+  "session_id": "633edc6f-e66d-4e0b-bed6-077731623ee9",
+  "validation_results": [
+    {
+      "field_name": "counterparty",
+      "term_sheet_value": "HSBC Bank plc",
+      "reference_value": "HSBC Bank plc",
+      "is_valid": true,
+      "discrepancy_type": null,
+      "risk_score": 0,
+      "confidence_score": 0.95,
+      "description": "counterparty exact match",
+      "recommendation": "",
+      "ai_analysis": "\u2705 Perfect string match"
+    },
+    {
+      "field_name": "notional_amount",
+      "term_sheet_value": "52,500,000 USD",
+      "reference_value": "50000000.0",
+      "is_valid": false,
+      "discrepancy_type": "minor",
+      "risk_score": 10,
+      "confidence_score": 0.95,
+      "description": "notional_amount minor discrepancy: 5.00% difference ($2,500,000.00)",
+      "recommendation": "Review notional_amount - difference of $2,500,000.00 detected",
+      "ai_analysis": "\u26a0\ufe0f Moderate variance detected - requires attention"
+    },
+    {
+      "field_name": "settlement_date",
+      "term_sheet_value": "2025-01-20",
+      "reference_value": "2025-01-15",
+      "is_valid": false,
+      "discrepancy_type": "minor",
+      "risk_score": 10,
+      "confidence_score": 0.95,
+      "description": "settlement_date minor discrepancy: 5 days difference",
+      "recommendation": "Verify settlement_date - 5 day variance detected",
+      "ai_analysis": "\u26a0\ufe0f Date shift detected - review settlement implications"
+    },
+    {
+      "field_name": "interest_rate",
+      "term_sheet_value": "4.85%",
+      "reference_value": "4.75",
+      "is_valid": true,
+      "discrepancy_type": null,
+      "risk_score": 0,
+      "confidence_score": 0.95,
+      "description": "interest_rate within acceptable tolerance (2.11%)",
+      "recommendation": "",
+      "ai_analysis": "\u2705 Values align within 10.0% tolerance threshold"
+    },
+    {
+      "field_name": "currency",
+      "term_sheet_value": "USD",
+      "reference_value": "USD",
+      "is_valid": true,
+      "discrepancy_type": null,
+      "risk_score": 0,
+      "confidence_score": 0.95,
+      "description": "currency exact match",
+      "recommendation": "",
+      "ai_analysis": "\u2705 Perfect string match"
+    },
+    {
+      "field_name": "payment_terms",
+      "term_sheet_value": "Monthly",
+      "reference_value": "Quarterly",
+      "is_valid": false,
+      "discrepancy_type": "critical",
+      "risk_score": 25,
+      "confidence_score": 0.95,
+      "description": "payment_terms significant text difference",
+      "recommendation": "Verify payment_terms - major text variance detected",
+      "ai_analysis": "\ud83d\udea8 Significant text mismatch - potential error"
+    },
+    {
+      "field_name": "legal_entity",
+      "term_sheet_value": "HSBC Holdings plc",
+      "reference_value": "HSBC Holdings plc",
+      "is_valid": true,
+      "discrepancy_type": null,
+      "risk_score": 0,
+      "confidence_score": 0.95,
+      "description": "legal_entity exact match",
+      "recommendation": "",
+      "ai_analysis": "\u2705 Perfect string match"
+    }
+  ],
+  "summary": {
+    "total_fields_validated": 7,
+    "passed_validations": 4,
+    "critical_issues": 1,
+    "minor_issues": 2,
+    "total_risk_score": 45,
+    "risk_level": "medium",
+    "overall_status": "REQUIRES_REVIEW"
+  },
+  "compliance_assessment": {
+    "mifid_ii": "warning",
+    "fca_rules": "compliant",
+    "sec_regulations": "compliant",
+    "overall_compliance": "requires_review"
+  },
+  "ai_recommendations": [
+    "\ud83d\udea8 URGENT: Critical discrepancies detected - immediate review required",
+    "Engage compliance team for regulatory assessment",
+    "\u26a0\ufe0f Minor discrepancies found - recommend verification before proceeding",
+    "\u2022 Review notional_amount - difference of $2,500,000.00 detected",
+    "\u2022 Verify settlement_date - 5 day variance detected",
+    "\u2022 Verify payment_terms - major text variance detected"
+  ],
+  "processing_metadata": {
+    "validation_engine": "AI-Enhanced v2.0",
+    "processing_time": 0.87,
+    "confidence_score": 0.94,
+    "validation_timestamp": "2025-06-17T15:01:55.290259"
+  }
+}

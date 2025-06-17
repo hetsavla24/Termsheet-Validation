@@ -1,0 +1,43 @@
+{
+  "validation_rules": {
+    "notional_amount": {
+      "tolerance": 0.05,
+      "critical_threshold": 0.1,
+      "data_type": "numeric"
+    },
+    "interest_rate": {
+      "tolerance": 0.25,
+      "critical_threshold": 0.5,
+      "data_type": "numeric"
+    },
+    "settlement_date": {
+      "tolerance": 5,
+      "critical_threshold": 14,
+      "data_type": "date"
+    },
+    "counterparty": {
+      "exact_match": false,
+      "similarity_threshold": 0.85,
+      "data_type": "string"
+    },
+    "currency": {
+      "exact_match": true,
+      "data_type": "string"
+    },
+    "payment_terms": {
+      "allowed_variations": [
+        "Monthly",
+        "Quarterly",
+        "Semi-annual",
+        "Annual"
+      ],
+      "data_type": "categorical"
+    }
+  },
+  "risk_scoring": {
+    "critical_discrepancy": 25,
+    "minor_discrepancy": 10,
+    "warning": 5,
+    "max_score": 100
+  }
+}

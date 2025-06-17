@@ -1,0 +1,40 @@
+
+JP MORGAN CHASE - TRANSACTION CONFIRMATION
+
+Transaction Reference: TR-2025-0422
+Trade Date: January 17, 2025
+
+COUNTERPARTY DETAILS:
+Institution: JP Morgan Chase Bank N.A.  [CORRECT]
+Legal Entity: JPMorgan Chase & Co.
+
+FINANCIAL TERMS:
+Notional Principal: EUR 75,000,000  [CORRECT]
+Effective Date: February 28, 2025
+Rate: 3.20% per annum  [DISCREPANCY: Should be 3.50%]
+Currency: EUR  [CORRECT]
+Payment Terms: Quarterly payments  [CORRECT]
+Base Currency: Euro
+
+SWAP SPECIFICATIONS:
+Product: Plain Vanilla Interest Rate Swap
+Termination Date: February 28, 2028
+Fixed Rate Payer: JP Morgan Chase
+Floating Rate Payer: Counterparty
+Day Count: 30/360
+
+RISK MANAGEMENT:
+Credit Rating: A+ (S&P)
+Exposure Limit: EUR 100,000,000
+Collateral: EUR 15,000,000
+Mark-to-Market: Daily
+
+LEGAL FRAMEWORK:
+ISDA Master Agreement: 2002 Version
+CSA: Standard Credit Support Annex
+Jurisdiction: English Law
+Dispute Resolution: London Court of International Arbitration
+
+Status: Pending Final Confirmation
+Version: 2.1
+        

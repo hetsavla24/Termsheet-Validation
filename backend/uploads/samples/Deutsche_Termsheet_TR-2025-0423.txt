@@ -1,0 +1,41 @@
+
+DEUTSCHE BANK AG - DERIVATIVE CONFIRMATION
+
+Contract ID: TR-2025-0423
+Issue Date: January 18, 2025
+
+COUNTERPARTY:
+Name: Deutsche Bank Aktiengesellschaft  [DISCREPANCY: Should be Deutsche Bank AG]
+Entity: Deutsche Bank AG London
+
+TRANSACTION SUMMARY:
+Notional Amount: GBP 100,000,000  [CORRECT]
+Trade Date: January 18, 2025
+Settlement Date: May 15, 2025  [DISCREPANCY: Should be April 10, 2025]
+Interest Rate: 4.40% annually  [DISCREPANCY: Should be 4.10%]
+Currency: British Pound Sterling  [CORRECT]
+Payment Terms: Bi-annual payments  [DISCREPANCY: Should be Quarterly]
+Benchmark Rate: SONIA + 200bps
+
+INSTRUMENT DETAILS:
+Type: Cross-Currency Interest Rate Swap
+Maturity: May 15, 2030
+Reset Dates: Quarterly
+Payment Dates: Semi-annually
+Business Day Rule: Following
+
+CREDIT TERMS:
+Credit Rating: AA- (Fitch)
+Minimum Transfer Amount: GBP 1,000,000
+Threshold: GBP 50,000,000
+Independent Amount: GBP 25,000,000
+
+REGULATORY:
+MiFID II: Large Financial Counterparty
+PRA Supervision: Yes
+BaFin Regulated: Yes
+EMIR Reporting: Required
+
+Document Control: DB-2025-0118-001
+Approval Status: Pending Legal Review
+        
